@@ -19,4 +19,3 @@ After GitHub Pages is enabled, use these URLs:
 - Account deletion: `https://nmdrg.github.io/Insight/account-deletion.html`
 
 Review the App Privacy questionnaire whenever the app's data practices or third-party services change. The documents are operational drafts and should be reviewed for the laws that apply where Insight is offered.
-
