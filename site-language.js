@@ -1,7 +1,7 @@
 /* Local language routing only: no content is sent to a translation service. */
 (() => {
   const locale = (navigator.language || "en").toLowerCase();
-  const language = ["fr", "de", "es", "it", "ja", "ko", "pt"].find((code) => locale.startsWith(code));
+  const language = ["fr", "de", "es", "it", "ja", "ko", "pt", "ru"].find((code) => locale.startsWith(code));
   if (!language || sessionStorage.getItem("insight-site-language-routed")) return;
   const page = location.pathname.split("/").pop() || "index.html";
   const pages = new Set(["index.html", "privacy.html", "terms.html", "community-guidelines.html", "support.html", "account-deletion.html"]);
